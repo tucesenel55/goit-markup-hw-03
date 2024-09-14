@@ -1,9 +1,32 @@
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
+  width: 1440px;
+  height: 3300px;
+  margin-top: -1169px;
+  margin-left: 370px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+header {
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+/* logo */
+.header-logo {
+  width: 115px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 156px;
 }
 
 .header-logo-web {
+  width: 44px;
+  height: 21px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -14,6 +37,8 @@ body {
 }
 
 .header-logo-studio {
+  width: 71px;
+  height: 21px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -21,6 +46,21 @@ body {
   color: #2e2f42;
   letter-spacing: -3%;
   text-decoration: none;
+}
+
+.header-logo-menu {
+  display: flex;
+}
+
+/* studio portfolio contacts */
+
+.nav-menu-list {
+  width: 261px;
+  height: 24px;
+  margin-top: 24px;
+  margin-left: 76px;
+  gap: 40px;
+  display: flex;
 }
 
 .nav-menu-list a {
@@ -36,12 +76,29 @@ body {
   color: #404bbf;
 }
 
-/* .nav-menu-list a:active{
-  color:#404BBF;
-} */
-
 .nav-menu-list li {
   list-style-type: none;
+}
+
+/* mail and phone */
+
+.nav-address-list {
+  width: 344px;
+  height: 24px;
+  margin-left: 332px;
+  margin-top: 24px;
+  display: flex;
+}
+
+.header-address-info {
+  width: 153px;
+  height: 24px;
+}
+
+.header-address-tel {
+  width: 151px;
+  height: 24px;
+  margin-left: 40px;
 }
 
 .nav-address-list a:hover {
@@ -59,19 +116,28 @@ body {
 
 .nav-address-list li {
   list-style-type: none;
+  display: flex;
 }
 
+/* efective solutions  */
+
 .section-efective-solutions {
+  width: 1440px;
+  height: 600px;
   background-color: #2e2f42;
 }
 
-.section-efective-solutions h1 {
+.section-efective-solutions-label {
+  width: 496px;
+  height: 120px;
   text-align: center;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.5;
+  line-height: 60px;
   letter-spacing: -2%;
   color: #ffffff;
+  padding-top: 188px;
+  padding-left: 472px;
 }
 
 .section-efective-solutions button {
