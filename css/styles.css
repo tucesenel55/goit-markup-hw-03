@@ -182,7 +182,7 @@ header {
   flex-direction: row;
 }
 
-.section-strategy-list{
+.section-strategy-list {
   margin: 120px 156px 120px 156px;
   width: 1128px;
   height: 104px;
@@ -195,7 +195,6 @@ header {
   display: flex;
   align-items: center;
 }
-
 
 .section-strategy h3 {
   font-weight: 500;
@@ -217,19 +216,19 @@ header {
   height: 72px;
 }
 
-.section-strategy-list-strategy{
+.section-strategy-list-strategy {
   padding-left: 0px;
 }
 
-.section-strategy-list-punctuality{
+.section-strategy-list-punctuality {
   padding-left: 24px;
 }
 
-.section-strategy-list-diligence{
+.section-strategy-list-diligence {
   padding-left: 24px;
 }
 
-.section-strategy-list-technologies{
+.section-strategy-list-technologies {
   padding-left: 24px;
 }
 
@@ -241,18 +240,34 @@ header {
 
 .section-ourteam {
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
+}
+
+.section-ourteam ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 156px;
 }
 
 .section-ourteam li {
   list-style-type: none;
+  margin-left: 24px;
+}
+
+.section-ourteam img {
+  width: 264px;
+  height: 260px;
 }
 
 .section-ourteam h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.7;
+  line-height: 40px;
   letter-spacing: 2%;
   text-align: center;
+  padding-top: 120px;
+  color: #2e2f42;
 }
 
 .section-ourteam h3 {
@@ -262,6 +277,7 @@ header {
   line-height: 1.5;
   letter-spacing: 2%;
   text-align: center;
+  color: #2e2f42;
 }
 
 .section-ourteam p {
@@ -269,14 +285,24 @@ header {
   font-size: 16px;
   line-height: 1.01;
   letter-spacing: 2%;
+  color: #434455;
   text-align: center;
 }
 
-/* .section-our-portfolio{
-  background-color: #E7E9FC;
-} */
-
-.section-our-portfolio li {
+.section-ourteam li {
+  width: 264px;
+  height: 380px;
+  padding-left: 24px;
+  padding-top: 232px;
+  padding-right: 1020px;
+  padding-bottom: 120px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+  border-radius: 0px 0px 4px 4px;
+  padding: 0px 0px 32px 0px;
   list-style-type: none;
 }
 
