@@ -306,13 +306,36 @@ header {
   list-style-type: none;
 }
 
+/* our portfolio */
+
+.section-our-portfolio-internal {
+  width: 1128px;
+  height: 1000px;
+  margin-top: 120px;
+  margin-left: 156px;
+  border: 1px solid red;
+}
+
+.section-our-portfolio-h2 {
+  padding-left: 455px;
+  padding-top: 120px;
+  align-items: center;
+  /* margin-left: 611px; */
+}
+
 .section-our-portfolio h2 {
+  margin-top: 120px;
+  padding-left: 455px;
+  padding-right: 455px;
+  width: 218px;
+  height: 40px;
+  display: inline;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.5;
+  line-height: 40px;
   letter-spacing: 2%;
-  text-align: center;
+  color: #2e2f42;
 }
 
 .section-our-portfolio h3 {
@@ -330,6 +353,8 @@ header {
   line-height: 1.01;
   letter-spacing: 2%;
 }
+
+/* footer */
 
 footer {
   background-color: #2e2f42;
