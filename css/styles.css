@@ -308,37 +308,92 @@ header {
 
 /* our portfolio */
 
+.section-our-portfolio{
+  width: 1440px;
+  height: 1240px;
+}
+
 .section-our-portfolio-internal {
   width: 1128px;
   height: 1000px;
   margin-top: 120px;
   margin-left: 156px;
   border: 1px solid red;
+ 
+}
+.section-our-portfolio-internal li{
+  width: 360px;
+  height: 420px;
+  list-style-type: none;
 }
 
-.section-our-portfolio-h2 {
-  padding-left: 455px;
-  padding-top: 120px;
-  align-items: center;
-  /* margin-left: 611px; */
-}
-
-.section-our-portfolio h2 {
-  margin-top: 120px;
-  padding-left: 455px;
-  padding-right: 455px;
-  width: 218px;
-  height: 40px;
-  display: inline;
+.section-our-portfolio-internal-header h2{
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  margin-left: 455px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 2%;
   color: #2e2f42;
+  align-items: center;
+}
+
+
+.section-our-portfolio-internal-header {
+  width: 218px;
+  height: 40px;
+  display: inline;
+}
+
+
+.section-our-portfolio-internal-first{
+  padding-left: 0px;
+  width: 1128px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.section-our-portfolio-internal-first div {
+  width: 360px;
+  height: 120px;
+
+padding: 32px 16px 32px 16px;
+gap: 8px;
+border: 0px 1px 1px 1px;
+opacity: 0px;
+border-width: 0px, 1px, 1px, 1px;
+
+border-style: solid;
+
+border-color: #E7E9FC;
+
+border-top-width: 0px;
+align-items: center;
+
+
+}
+  
+
+
+.section-our-portfolio-internal-second{
+  width: 1128px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section-our-portfolio h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
