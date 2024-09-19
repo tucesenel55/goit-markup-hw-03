@@ -308,28 +308,38 @@ header {
 
 /* our portfolio */
 
-.section-our-portfolio {
+/* .section-our-portfolio {
   width: 1440px;
   height: 1240px;
-}
+} */
 
 .section-our-portfolio-internal {
-  /* width: 1128px;
-  height: 1000px; */
-  padding-top: 120px;
-  padding-left: 156px;
+  width: 1128px;
+  height: 1000px;
+  margin-top: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
+  margin-bottom: 120px;
+}
+
+.section-our-portfolio-internal-header {
+  
+  display: inline;
 }
 
 .section-our-portfolio-internal-header h2 {
+  width: 218px;
+  height: 40px;
+  margin-left: 0px;
+  padding-left: 455px;
+  width: 673px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 0px;
-  margin-left: 455px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 2%;
+  letter-spacing: -2%;
   color: #2e2f42;
   align-items: center;
 }
@@ -339,91 +349,104 @@ header {
   height: 420px;
   list-style-type: none;
   background: #FFFFFF;
+  margin-right: 24px;
+  
 }
 
-.section-our-portfolio-internal-header {
-  width: 218px;
-  height: 40px;
-  display: inline;
-}
-
-.section-our-portfolio-internal-first {
-  padding-left: 0px;
+.section-our-portfolio-internal-first-line{
+ 
   width: 1128px;
   height: 420px;
-  display: flex;
-  /* flex-wrap: wrap; */
-  gap: 0px;
-  background: #FFFFFF; 
-}
-
-.section-our-portfolio-internal-second {
   padding-left: 0px;
-  margin-top: 48px;
-  width: 1128px;
-  height: 420px;
+  margin-top: 0px;
+  padding-top: 72px;
+  margin-bottom: 0px;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-direction: row;
+  box-sizing: content-box;
+
 }
 
-.section-our-portfolio-internal-first-banking-app {
-  margin-left: 0px;
+.first-line-list{
+  width: 360px;
+  height: 420px;
+  box-sizing: content-box;
 }
 
-.section-our-portfolio-internal-first-cashless-payment {
-  margin-left: 24px;
+.second-line-list{
+  width: 360px;
+  height: 420px;
+  box-sizing: content-box;
 }
 
-.section-our-portfolio-internal-first-meditation-app {
-  margin-left: 24px;
-}
-
-.section-our-portfolio-internal-second-taxi-service {
-  margin-left: 0px;
-}
-
-.section-our-portfolio-internal-second-illustrations {
-  margin-left: 24px;
-}
-
-.section-our-portfolio-internal-second-online-courses {
-  margin-left: 24px;
-}
-
-.section-our-portfolio-internal-first-desc {
+.first-line-desc{
   width: 360px;
   height: 120px;
+  box-sizing: content-box;
+  border: 0px, 1px, 1px, 1px;
 
-  padding: 32px 16px 32px 16px;
-  gap: 8px;
-  align-items: center;
+  border-style: solid;
+  
+  border-color: #E7E9FC;
+  
+  
+
 }
-.section-our-portfolio-internal-second-desc {
+
+.second-line-desc{
   width: 360px;
   height: 120px;
-  padding: 32px 16px 32px 16px;
-  gap: 8px;
-  opacity: 0px;
-  align-items: center;
+  box-sizing: content-box;
+  border: 1px solid red;
+  
+  border-top-width: 0px;
+
 }
+
+
+
+.section-our-portfolio-internal-second-line{
+width: 1128px;
+height: 420px;
+padding-left: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 48px;
+display: flex;
+flex-direction: row;
+}
+
 
 .section-our-portfolio h3 {
+  
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 8px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 2%;
+  line-height: 24px;
+  letter-spacing: -2%;
+  color: #2E2F42;
+  ;
 }
 
 .section-our-portfolio p {
+
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.01;
   letter-spacing: 2%;
+  display: inline-block;
+  padding-left: 16px;
+  color: #434455;
+  ;
+
 }
+
 
 /* footer */
 
