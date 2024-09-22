@@ -308,22 +308,22 @@ header {
 
 /* our portfolio */
 
-/* .section-our-portfolio {
+.section-our-portfolio {
   width: 1440px;
   height: 1240px;
-} */
+}
 
 .section-our-portfolio-internal {
   width: 1128px;
   height: 1000px;
-  margin-top: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 120px;
+  box-sizing: content-box;
 }
 
 .section-our-portfolio-internal-header {
-  
   display: inline;
 }
 
@@ -348,13 +348,11 @@ header {
   width: 360px;
   height: 420px;
   list-style-type: none;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-right: 24px;
-  
 }
 
-.section-our-portfolio-internal-first-line{
- 
+.section-our-portfolio-internal-first-line {
   width: 1128px;
   height: 420px;
   padding-left: 0px;
@@ -364,61 +362,56 @@ header {
   display: flex;
   flex-direction: row;
   box-sizing: content-box;
-
 }
 
-.first-line-list{
+.first-line-list {
   width: 360px;
   height: 420px;
   box-sizing: content-box;
 }
 
-.second-line-list{
+.second-line-list {
   width: 360px;
   height: 420px;
   box-sizing: content-box;
 }
 
-.first-line-desc{
+.first-line-desc {
   width: 360px;
   height: 120px;
   box-sizing: content-box;
   border: 0px, 1px, 1px, 1px;
 
   border-style: solid;
-  
-  border-color: #E7E9FC;
-  
-  
 
+  border-color: #e7e9fc;
 }
 
-.second-line-desc{
+.first-line-meditation{
+  margin-right: 0px;
+}
+
+.second-line-desc {
   width: 360px;
   height: 120px;
   box-sizing: content-box;
   border: 1px solid red;
-  
+
   border-top-width: 0px;
-
 }
 
-
-
-.section-our-portfolio-internal-second-line{
-width: 1128px;
-height: 420px;
-padding-left: 0px;
-margin-top: 0px;
-margin-bottom: 0px;
-padding-top: 48px;
-display: flex;
-flex-direction: row;
+.section-our-portfolio-internal-second-line {
+  width: 1128px;
+  height: 420px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: row;
 }
-
 
 .section-our-portfolio h3 {
-  
   padding-top: 32px;
   padding-left: 16px;
   padding-bottom: 8px;
@@ -429,12 +422,10 @@ flex-direction: row;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -2%;
-  color: #2E2F42;
-  ;
+  color: #2e2f42;
 }
 
 .section-our-portfolio p {
-
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -443,10 +434,7 @@ flex-direction: row;
   display: inline-block;
   padding-left: 16px;
   color: #434455;
-  ;
-
 }
-
 
 /* footer */
 
@@ -497,8 +485,6 @@ footer p {
   flex-direction: row;
   margin-top: 16px;
 }
-
-
 
 .footer {
   background-color: #2e2f42;
