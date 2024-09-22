@@ -350,6 +350,7 @@ header {
   list-style-type: none;
   background: #ffffff;
   margin-right: 24px;
+  box-sizing: content-box;
 }
 
 .section-our-portfolio-internal-first-line {
@@ -364,40 +365,9 @@ header {
   box-sizing: content-box;
 }
 
-.first-line-list {
+.our-portfolio-image {
   width: 360px;
-  height: 420px;
-  box-sizing: content-box;
-}
-
-.second-line-list {
-  width: 360px;
-  height: 420px;
-  box-sizing: content-box;
-}
-
-.first-line-desc {
-  width: 360px;
-  height: 120px;
-  box-sizing: content-box;
-  border: 0px, 1px, 1px, 1px;
-
-  border-style: solid;
-
-  border-color: #e7e9fc;
-}
-
-.first-line-meditation{
-  margin-right: 0px;
-}
-
-.second-line-desc {
-  width: 360px;
-  height: 120px;
-  box-sizing: content-box;
-  border: 1px solid red;
-
-  border-top-width: 0px;
+  height: 300px;
 }
 
 .section-our-portfolio-internal-second-line {
@@ -423,6 +393,18 @@ header {
   line-height: 24px;
   letter-spacing: -2%;
   color: #2e2f42;
+}
+
+.description {
+  width: 360px;
+  height: 120px;
+
+  border: 0px, 1px, 1px, 1px;
+  border-width: 0px 1px 1px 1px;
+
+  border-style: solid;
+
+  border-color: #e7e9fc;
 }
 
 .section-our-portfolio p {
