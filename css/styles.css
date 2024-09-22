@@ -155,11 +155,6 @@ header {
   display: inline-block;
   padding: 16px, 32px, 16px, 32px;
   gap: 10px;
-}
-
-.section-efective-solutions-button-button a {
-  width: 105px;
-  height: 24px;
   color: #ffffff;
   text-align: center;
   font-weight: 500px;
@@ -167,6 +162,8 @@ header {
   line-height: 24px;
   letter-spacing: 4%;
 }
+
+
 
 .section-efective-solutions-button:hover {
   color: #ffffff;
