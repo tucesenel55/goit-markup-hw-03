@@ -9,10 +9,35 @@ body {
 }
 
 header {
-  width: 1440px;
-  height: 72px;
+ 
   display: flex;
   border-bottom: 1px solid #e7e9fc;
+}
+
+img {
+  display: block; 
+}
+
+.container-header {
+  display: flex;
+  width: 1158px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 1158px;
+  max-width: 1140px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 15px;
+  align-items: center;
 }
 
 /* logo */
