@@ -8,35 +8,33 @@ body {
   gap: 0px;
 }
 
-header {
+/* header {
  
   display: flex;
   border-bottom: 1px solid #e7e9fc;
-}
+} */
 
 img {
   display: block; 
 }
 
+.header-of-page{
+  width: 1440px;
+  height: 72px;
+}
+
 .container-header {
   display: flex;
-  width: 1158px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0 15px;
+  margin: 0 auto;
+  padding:15px;
   justify-content: space-between;
   align-items: center;
 }
 .container {
   width: 1158px;
   max-width: 1140px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0 15px;
+  margin: 0 auto;
+  padding: 15px;
   align-items: center;
 }
 
@@ -56,6 +54,7 @@ img {
   font-size: 18px;
   line-height: 1.15;
   color: #4d5ae5;
+  margin-right: 76px;
 
   text-decoration: none;
 }
@@ -74,6 +73,7 @@ img {
 
 .header-logo-menu {
   display: flex;
+  align-items: center;
 }
 
 /* studio portfolio contacts */
@@ -110,7 +110,9 @@ img {
   height: 24px;
   margin-left: 332px;
   margin-top: 24px;
+  gap: 40px;
   display: flex;
+  text-decoration: none;
 }
 
 .header-address-info {
