@@ -21,21 +21,24 @@ img {
 .header-of-page{
   width: 1440px;
   height: 72px;
+  border-bottom: 1px solid #e7e9fc
 }
 
 .container-header {
   display: flex;
-  margin: 0 auto;
-  padding:15px;
-  justify-content: space-between;
-  align-items: center;
-}
-.container {
-  width: 1158px;
-  max-width: 1140px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 15px;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.container {
+  width: 1158px;
+  max-width: 1440px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 /* logo */
@@ -78,11 +81,15 @@ img {
 
 /* studio portfolio contacts */
 
+.nav-menu-list-studio{
+  padding: 24px 0;
+}
 .nav-menu-list {
   width: 261px;
   height: 24px;
-  margin-top: 24px;
+  
   margin-left: 76px;
+  padding: 24px 0;
   gap: 40px;
   display: flex;
 }
