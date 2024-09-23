@@ -391,7 +391,7 @@ header {
   width: 360px;
   height: 120px;
 
-  border: 0px, 1px, 1px, 1px;
+  border: 0px 1px 1px 1px;
   border-width: 0px 1px 1px 1px;
 
   border-style: solid;
