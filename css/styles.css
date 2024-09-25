@@ -3,21 +3,22 @@ body {
   font-family: "Roboto", sans-serif;
   width: 1440px;
   height: 3300px;
-  margin-top: -1169px;
-  margin-left: 370px;
+  /* margin-top: -1169px;
+  margin-left: 370px; */
   gap: 0px;
+  opacity: 0px;
 }
 
 img {
-  display: block; 
+  display: block;
 }
 
-.header-of-page{
+.header-of-page {
   width: 1440px;
   height: 72px;
   box-sizing: content-box;
   border-bottom-width: 0px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
@@ -27,27 +28,14 @@ img {
   margin: 0 auto;
   box-sizing: border-box;
   /* align-items: center; */
-  
-  padding-top: 25px;
-}
-.container {
-  width: 1158px;
-  max-height: 72px;
-  display: flex;
-  flex-direction: row;
-  /* height: 72px; */
-  box-sizing: border-box;
-  /* align-items: center; */
-  margin: 0 auto;
-  padding:0 15px;
+  padding-left: 156px;
 }
 
 /* logo */
-.header-logo {
-  width: 115px;
-  height: 24px;
-  margin-top: 24px;
-  margin-left: 156px;
+
+.header-logo-menu {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo-web {
@@ -59,7 +47,6 @@ img {
   line-height: 1.15;
   color: #4d5ae5;
   margin-right: 76px;
-
   text-decoration: none;
 }
 
@@ -71,24 +58,12 @@ img {
   font-size: 18px;
   line-height: 1.15;
   color: #2e2f42;
-
   text-decoration: none;
-}
-
-.header-logo-menu {
-  display: flex;
-  align-items: center;
-}
-
-.header-address{
-  display: flex;
-  align-items: center;
-  font-style: normal;
 }
 
 /* studio portfolio contacts */
 
-.nav-menu-list-studio{
+.nav-menu-list-studio {
   padding: 24px 0;
 }
 .nav-menu-list {
@@ -106,7 +81,7 @@ img {
   flex-direction: row;
   text-decoration: none;
   color: #434455;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   align-items: center;
@@ -122,71 +97,78 @@ img {
 
 /* mail and phone */
 
+.header-address {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+
 .nav-address-list {
   list-style-type: none;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
   initial-letter: 2%;
-  display:flex;
-  gap:40px;
+  display: flex;
+  gap: 40px;
   padding-left: 332px;
-  
- 
 }
-
-
-
 
 .nav-address-list a:hover {
   color: #404bbf;
 }
 
 .nav-address-list a {
- text-decoration: none;
+  text-decoration: none;
   color: #434455;
 }
 
 .nav-address-list li {
   text-decoration: none;
-  
+
   display: flex;
 }
 
 /* efective solutions  */
 
 .section-efective-solutions {
-  width: 1440px;
-  height: 600px;
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
-.section-efective-solutions-label {
-  padding-top: 188px;
+.container-efective-solutions {
+  width: 496px;
+  height: 224px;
   padding-left: 472px;
 }
 
-.section-efective-solutions-label a {
+.container-efective-solutions-label {
+  max-width: 496px;
   width: 496px;
   height: 120px;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-
+  box-sizing: content-box;
   color: #ffffff;
-  display: flex;
+  display: block;
 }
 
 .section-efective-solutions-button-button {
-  margin-left: 636px;
+  padding-left: 636px;
+  margin-left: 164px;
   margin-top: 48px;
+
+  min-width: 169px;
   width: 169px;
   height: 56px;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   padding: 16px 32px 16px 32px;
   gap: 10px;
   color: #ffffff;
@@ -194,6 +176,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
 .section-efective-solutions-button:hover {
