@@ -241,20 +241,8 @@ img {
   height: 72px;
 }
 
-.section-strategy-list-strategy {
+.section-strategy-list-item {
   width: calc((100% - 72px) / 4);
-}
-
-.section-strategy-list-punctuality {
-  width: calc((100% - 72px) / 4); 
-}
-
-.section-strategy-list-diligence {
-  width: calc((100% - 72px) / 4); 
-}
-
-.section-strategy-list-technologies {
-  width: calc((100% - 72px) / 4); 
 }
 
 .section-strategy li {
