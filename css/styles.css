@@ -29,6 +29,8 @@ img {
   box-sizing: border-box;
   /* align-items: center; */
   padding-left: 156px;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 /* logo */
