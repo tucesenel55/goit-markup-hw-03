@@ -280,7 +280,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   list-style-type: none;
   margin-left: 24px;
-  width: 264px;
   height: 380px;
   padding-left: 24px;
   padding-top: 232px;
@@ -301,6 +300,7 @@ img {
 }
 
 .item-name {
+  margin-top: 0px;
   text-align: center;
   margin-bottom: 8px;
   font-weight: 500;
