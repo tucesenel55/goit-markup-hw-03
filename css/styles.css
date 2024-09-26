@@ -253,13 +253,8 @@ img {
 
 .section-ourteam {
   background-color: #f4f4fd;
-  
-  height: 732px;
-}
-
-.container-section-ourteam{
-  
   padding: 120px 0;
+  height: 732px;
 }
 
 .section-ourteam-title {
@@ -276,12 +271,12 @@ img {
   margin-top: 0px;
   display: flex;
   flex-direction: row;
-  padding-left: 0px;
+  padding-left: 156px;
+  padding-right: 156px;
   gap: 24px;
 }
 
-.section-ourteam-item-mark{
-  margin-left: 156px;
+.section-ourteam-item{
   padding-left: 0px;
  
   list-style-type: none;
@@ -294,40 +289,6 @@ img {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
   border-radius: 0px 0px 4px 4px;
 
-}
-
-.section-ourteam-item-tom{
-  width: calc((100% - 72px) / 4);
-  list-style-type: none;
-  border: 1px solid white;
-  background-color: white;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
-  border-radius: 0px 0px 4px 4px;
-}
-
-.section-ourteam-item-camila{
-  width: calc((100% - 72px) / 4);
-  list-style-type: none;
-  border: 1px solid white;
-  background-color: white;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
-  border-radius: 0px 0px 4px 4px;
-}
-
-.section-ourteam-item-daniel{
-  width: calc((100% - 72px) / 4);
-  margin-right: 156px;
-  list-style-type: none;
-  border: 1px solid white;
-  background-color: white;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
-  border-radius: 0px 0px 4px 4px;
 }
 
 
