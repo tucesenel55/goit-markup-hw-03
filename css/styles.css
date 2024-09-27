@@ -276,11 +276,11 @@ img {
   gap: 24px;
 }
 
-.section-ourteam-item{
+.section-ourteam-item {
   padding-left: 0px;
- 
+
   list-style-type: none;
-  
+
   width: calc((100% - 72px) / 4);
   background-color: white;
   border: 1px solid white;
@@ -288,11 +288,8 @@ img {
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
   border-radius: 0px 0px 4px 4px;
-
 }
 
-
- 
 .item-name-title {
   padding: 32px 0;
 }
@@ -321,20 +318,25 @@ img {
   height: 260px; */
 }
 
+.container-section-ourteam li{
+width: 264px;
+height: 380px;
+}
+
 /* our portfolio */
 
 .section-our-portfolio {
+  
   width: 1440px;
   height: 1240px;
 }
 
-.section-our-portfolio-internal {
+.container-section-our-portfolio-internal {
   width: 1128px;
   height: 1000px;
-  padding-top: 120px;
+  padding: 120px 0;
   padding-left: 156px;
   padding-right: 156px;
-  padding-bottom: 120px;
   box-sizing: content-box;
 }
 
@@ -342,14 +344,14 @@ img {
   display: inline;
 }
 
-.section-our-portfolio-internal-header h2 {
+.section-our-portfolio-internal-header-title {
   width: 218px;
   height: 40px;
   margin-left: 0px;
   padding-left: 455px;
   width: 673px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 72px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -359,9 +361,15 @@ img {
   align-items: center;
 }
 
-.section-our-portfolio-internal li {
+.section-our-portfolio-internal-first-line-item{
+  list-style-type: none;
   width: 360px;
   height: 420px;
+}
+
+.section-our-portfolio-internal li {
+  /* width: 360px;
+  height: 420px; */
   list-style-type: none;
   background: #ffffff;
   margin-right: 24px;
@@ -373,11 +381,12 @@ img {
   height: 420px;
   padding-left: 0px;
   margin-top: 0px;
-  padding-top: 72px;
   margin-bottom: 0px;
   display: flex;
   flex-direction: row;
   box-sizing: content-box;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 .our-portfolio-image {
@@ -397,8 +406,8 @@ img {
 }
 
 .section-our-portfolio h3 {
-  padding-top: 32px;
-  padding-left: 16px;
+ 
+  
   padding-bottom: 8px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -413,10 +422,14 @@ img {
 .description {
   width: 360px;
   height: 120px;
-  border: 0px 1px 1px 1px;
+  box-sizing: border-box;
+  border: 1px solid #e7e9fc;
   border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #e7e9fc;
+  padding: 32px 16px;
+  border-top: none;
+  margin-bottom: 8px;
+  
+  
 }
 
 .section-our-portfolio p {
@@ -426,7 +439,7 @@ img {
   line-height: 1.01;
 
   display: inline-block;
-  padding-left: 16px;
+  
   color: #434455;
 }
 
