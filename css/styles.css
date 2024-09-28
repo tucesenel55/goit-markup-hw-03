@@ -329,12 +329,13 @@ height: 380px;
   
   width: 1440px;
   height: 1240px;
+  padding: 120px 0;
 }
 
 .container-section-our-portfolio-internal {
   width: 1128px;
   height: 1000px;
-  padding: 120px 0;
+  
   padding-left: 156px;
   padding-right: 156px;
   box-sizing: content-box;
@@ -344,7 +345,7 @@ height: 380px;
   display: inline;
 }
 
-.section-our-portfolio-internal-header-title {
+.internal-header-title {
   width: 218px;
   height: 40px;
   margin-left: 0px;
@@ -381,7 +382,7 @@ height: 380px;
   height: 420px;
   padding-left: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 48px;
   display: flex;
   flex-direction: row;
   box-sizing: content-box;
@@ -394,7 +395,7 @@ height: 380px;
   height: 300px;
 }
 
-.section-our-portfolio-internal-second-line {
+/* .section-our-portfolio-internal-second-line {
   width: 1128px;
   height: 420px;
   padding-left: 0px;
@@ -403,7 +404,7 @@ height: 380px;
   padding-top: 48px;
   display: flex;
   flex-direction: row;
-}
+} */
 
 .section-our-portfolio h3 {
  
