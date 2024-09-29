@@ -404,8 +404,6 @@ img {
 }
 
 .description {
-  width: 360px;
-  height: 120px;
   box-sizing: border-box;
   border: 1px solid #e7e9fc;
   border-width: 0px 1px 1px 1px;
@@ -419,9 +417,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.01;
-
   display: inline-block;
-
   color: #434455;
 }
 
