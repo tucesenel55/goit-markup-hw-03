@@ -269,11 +269,14 @@ img {
 
 .section-ourteam-list {
   margin-top: 0px;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: row;
   padding-left: 156px;
   padding-right: 156px;
   gap: 24px;
+  height: 380px;
+  box-sizing: content-box;
 }
 
 .section-ourteam-item {
