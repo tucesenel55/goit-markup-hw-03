@@ -278,9 +278,7 @@ img {
 
 .section-ourteam-item {
   padding-left: 0px;
-
   list-style-type: none;
-
   width: calc((100% - 72px) / 4);
   background-color: white;
   border: 1px solid white;
@@ -313,21 +311,9 @@ img {
   color: #434455;
 }
 
-.section-ourteam-item img {
-  /* width: 264px;
-  height: 260px; */
-}
-
-.container-section-ourteam li {
-  width: 264px;
-  height: 380px;
-}
-
 /* our portfolio */
 
 .section-our-portfolio {
-  /* width: 1440px;
-  height: 1240px; */
   padding: 120px 0;
 }
 
@@ -360,8 +346,6 @@ img {
   display: inline;
 }
 
-
-
 .section-our-portfolio-internal-first-line-item {
   list-style-type: none;
   width: 360px;
@@ -383,6 +367,7 @@ img {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 48px;
+  row-gap: 48px;
   display: flex;
   flex-direction: row;
   box-sizing: content-box;
@@ -443,7 +428,6 @@ img {
 /* footer */
 
 .section-footer {
-  
   width: 1440px;
   height: 312px;
   background-color: #2e2f42;
@@ -451,7 +435,6 @@ img {
 }
 
 .container-footer-logo-p {
- 
   flex-direction: column;
   padding-left: 156px;
 }
