@@ -419,6 +419,8 @@ img {
   line-height: 1.01;
   display: inline-block;
   color: #434455;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* footer */
