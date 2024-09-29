@@ -318,15 +318,14 @@ img {
   height: 260px; */
 }
 
-.container-section-ourteam li{
-width: 264px;
-height: 380px;
+.container-section-ourteam li {
+  width: 264px;
+  height: 380px;
 }
 
 /* our portfolio */
 
 .section-our-portfolio {
-  
   width: 1440px;
   height: 1240px;
   padding: 120px 0;
@@ -335,7 +334,7 @@ height: 380px;
 .container-section-our-portfolio-internal {
   width: 1128px;
   height: 1000px;
-  
+
   padding-left: 156px;
   padding-right: 156px;
   box-sizing: content-box;
@@ -362,7 +361,7 @@ height: 380px;
   align-items: center;
 }
 
-.section-our-portfolio-internal-first-line-item{
+.section-our-portfolio-internal-first-line-item {
   list-style-type: none;
   width: 360px;
   height: 420px;
@@ -407,8 +406,6 @@ height: 380px;
 } */
 
 .section-our-portfolio h3 {
- 
-  
   padding-bottom: 8px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -429,8 +426,6 @@ height: 380px;
   padding: 32px 16px;
   border-top: none;
   margin-bottom: 8px;
-  
-  
 }
 
 .section-our-portfolio p {
@@ -440,25 +435,29 @@ height: 380px;
   line-height: 1.01;
 
   display: inline-block;
-  
+
   color: #434455;
 }
 
 /* footer */
 
-footer {
+.section-footer {
+  
   width: 1440px;
   height: 312px;
   background-color: #2e2f42;
 }
 
-.footer-logo-p {
-  width: 264px;
-  height: 112px;
+.container-footer-logo-p {
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   padding-left: 156px;
-  padding-top: 100px;
+}
+
+.container-footer-logo-p a {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-web {
@@ -466,7 +465,6 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
-
   color: #4d5ae5;
   text-decoration: none;
 }
@@ -476,17 +474,17 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
-
   color: #f4f4fd;
   text-decoration: none;
 }
 
-footer p {
+.footer-p {
   width: 264px;
   height: 72px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  max-width: 264px;
 
   color: #f4f4fd;
   display: flex;
