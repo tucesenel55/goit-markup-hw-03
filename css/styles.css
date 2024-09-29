@@ -326,9 +326,25 @@ img {
 /* our portfolio */
 
 .section-our-portfolio {
-  width: 1440px;
-  height: 1240px;
+  /* width: 1440px;
+  height: 1240px; */
   padding: 120px 0;
+}
+
+.internal-header-title {
+  width: 218px;
+  height: 40px;
+  margin-left: 0px;
+  padding-left: 455px;
+  width: 673px;
+  margin-top: 0px;
+  margin-bottom: 72px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2e2f42;
+  align-items: center;
 }
 
 .container-section-our-portfolio-internal {
@@ -344,22 +360,7 @@ img {
   display: inline;
 }
 
-.internal-header-title {
-  width: 218px;
-  height: 40px;
-  margin-left: 0px;
-  padding-left: 455px;
-  width: 673px;
-  margin-top: 0px;
-  margin-bottom: 72px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
 
-  color: #2e2f42;
-  align-items: center;
-}
 
 .section-our-portfolio-internal-first-line-item {
   list-style-type: none;
