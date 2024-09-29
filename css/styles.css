@@ -380,21 +380,9 @@ img {
   height: 300px;
 }
 
-/* .section-our-portfolio-internal-second-line {
-  width: 1128px;
-  height: 420px;
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 48px;
-  display: flex;
-  flex-direction: row;
-} */
-
 .section-our-portfolio h3 {
-  padding-bottom: 8px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -404,12 +392,13 @@ img {
 }
 
 .description {
+  height: 120px;
   box-sizing: border-box;
   border: 1px solid #e7e9fc;
   border-width: 0px 1px 1px 1px;
   padding: 32px 16px;
   border-top: none;
-  margin-bottom: 8px;
+
 }
 
 .section-our-portfolio p {
@@ -421,6 +410,8 @@ img {
   color: #434455;
   margin-top: 0px;
   margin-bottom: 0px;
+  height: 8px;
+  box-sizing: content-box;
 }
 
 /* footer */
